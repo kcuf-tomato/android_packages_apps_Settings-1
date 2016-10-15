@@ -22,7 +22,7 @@
         android:key="accelerometer"
         android:title="@string/accelerometer_title" />
 
-    <com.ion.ionizer.preferences.SystemSettingSwitchPreference
+    <com.stag.horns.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_rotation"
         android:title="@string/lockscreen_rotation_title"
         android:summary="@string/lockscreen_rotation_summary"
