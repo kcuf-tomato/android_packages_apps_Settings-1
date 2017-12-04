@@ -1274,8 +1274,8 @@
         </activity>
 
         <activity android:name="Settings$AppOpsSummaryActivity"
-                android:label="@string/app_ops_settings"
-                android:taskAffinity="com.android.settings"
+                android:label="@string/privacy_guard_manager_title"
+                android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1306,6 +1306,30 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.appops.BackgroundCheckSummary" />
         </activity>
+
+        <!-- Still need a top-level activity for showing app ops details.  Aliasing
+             trick is so the code that is now a fragment can still be called
+             AppOpsDetails. -->
+        <activity android:name=".applications.appops.AppOpsDetailsTop"
+                  android:label="@string/privacy_guard_manager_title"
+                  android:exported="true"
+                  android:taskAffinity=""
+                  android:excludeFromRecents="true"
+                  android:parentActivityName="Settings$AppOpsSummaryActivity">
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias android:name=".applications.appops.AppOpsDetails"
+                android:label="@string/privacy_guard_manager_title"
+                android:exported="true"
+                android:excludeFromRecents="true"
+                android:targetActivity=".applications.appops.AppOpsDetailsTop">
+            <intent-filter>
+                <action android:name="android.settings.APP_OPS_DETAILS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity-alias>
 
         <activity
             android:name="Settings$LocationSettingsActivity"
