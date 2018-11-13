@@ -145,6 +145,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.stag.horns.Horns;
 import com.stag.horns.fragments.HeadsUpSettings;
 import com.android.settings.custom.ambient.history.AmbientPlayHistory;
+import com.android.settings.custom.ambient.AmbientPlaySettings;
 
 public class SettingsGateway {
 
@@ -278,6 +279,7 @@ public class SettingsGateway {
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName()
             AmbientPlayHistory.class.getName(),
+            AmbientPlaySettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
