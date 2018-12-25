@@ -277,7 +277,7 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
             AmbientPlayHistory.class.getName(),
             AmbientPlaySettings.class.getName(),
     };
