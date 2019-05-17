@@ -61,4 +61,9 @@
         android:title="@string/device_screen_usage"
         android:selectable="false" />
 
+    <Preference
+       android:key="smart_pixels"
+       android:title="@string/smart_pixels_title"
+       android:summary="@string/smart_pixels_summary"
+       android:fragment="com.stag.horns.fragments.SmartPixels" />
 </PreferenceScreen>
