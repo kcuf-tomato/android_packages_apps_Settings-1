@@ -134,10 +134,6 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 
-    <PreferenceCategory
-        android:key="theme_category"
-        android:title="@string/theme_category_title">
-
     <com.android.settings.display.FontDialogPreference
         android:key="custom_font"
         android:title="@string/font_picker_title"
@@ -149,12 +145,6 @@
         android:entries="@array/systemui_theme_style_entries"
         android:entryValues="@array/systemui_theme_style_values"
         android:persistent="false" />
-
-        <Preference
-            android:key="accent_picker"
-            android:title="@string/theme_accent_picker_title" />
-
-    </PreferenceCategory >
 
     <PreferenceCategory
         android:key="qs_category"
