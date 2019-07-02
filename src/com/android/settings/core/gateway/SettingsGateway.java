@@ -287,7 +287,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-            Horns.class.getName()
+            Horns.class.getName(),
             GamingMode.class.getName(),
     };
 
