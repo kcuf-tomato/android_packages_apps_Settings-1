@@ -3310,7 +3310,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.evolution.settings.fragments.GamingMode" />
+                android:value="com.stag.horns.fragments.GamingMode" />
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
