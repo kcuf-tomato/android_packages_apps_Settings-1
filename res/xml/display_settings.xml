@@ -176,40 +176,6 @@
         android:persistent="false" />
 
     <PreferenceCategory
-        android:key="qs_category"
-        android:title="@string/qs_themes_category_title" >
-
-        <com.stag.horns.preferences.SystemSettingSwitchPreference
-            android:key="qs_panel_bg_use_fw"
-            android:title="@string/qs_bg_use_fw"
-            android:summary="@string/qs_bg_use_fw_summary"
-            android:defaultValue="true"
-            android:disableDependentsState="true" />
-
-        <com.stag.horns.preferences.SystemSettingSwitchPreference
-            android:key="qs_panel_bg_use_wall"
-            android:title="@string/qs_bg_wall_title"
-            android:summary="@string/qs_bg_wall_summary"
-            android:defaultValue="false"
-            android:dependency="qs_panel_bg_use_fw" />
-
-         <com.stag.horns.preferences.SystemSettingSwitchPreference
-            android:key="qs_panel_bg_use_accent"
-            android:title="@string/qs_bg_accent_title"
-            android:summary="@string/qs_bg_accent_summary"
-            android:defaultValue="false"
-            android:dependency="qs_panel_bg_use_fw" />
-
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="qs_panel_color"
-            android:title="@string/qs_panel_color_title"
-            android:defaultValue="0xffffff"
-            android:persistent="false"
-            android:dependency="qs_panel_bg_use_fw" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="density_category"
         android:title="@string/density_category">
 
