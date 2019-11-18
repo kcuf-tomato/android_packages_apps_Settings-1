@@ -191,4 +191,10 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 
+    <!-- Back gesture settings -->
+    <string name="back_gesture_settings_dialog_title">Back gesture settings</string>
+    <string name="back_gesture_sensitivity_dialog_message">Higher sensitivity may conflict with any app gestures along the edges of the screen.</string>
+    <string name="back_gesture_arrow_title">Back arrow animation</string>
+    <string name="back_gesture_arrow_message">Hide arrow with back gesture</string>
+
 </resources>
