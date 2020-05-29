@@ -191,4 +191,8 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 
+    <!-- Update notifer -->
+    <string name="stag_notifier_title">Update notifications</string>
+    <string name="stag_notifier_summary">Get push notifications when an update is available</string>
+
 </resources>
