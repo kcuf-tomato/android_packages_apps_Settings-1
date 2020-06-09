@@ -30,7 +30,4 @@
     <!-- Whether to display touch sensitivity switch -->
     <bool name="config_show_touch_sensitivity">false</bool>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
-
 </resources>
