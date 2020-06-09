@@ -68,17 +68,6 @@
         <intent android:action="android.intent.action.MANAGE_PERMISSIONS"/>
     </Preference>
 
-    <!-- Stag Notifier -->
-    <Preference
-        android:key="stag_notifier"
-        android:title="@string/stag_notifier_title"
-        android:summary="@string/stag_notifier_summary"
-        settings:controller="com.android.settings.applications.StagNotifierPreferenceController">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.stag.notifier"
-            android:targetClass="com.stag.notifier.MainActivity" />
-    </Preference>
-
     <com.android.settingslib.RestrictedPreference
         android:key="app_and_notif_cell_broadcast_settings"
         android:title="@string/cell_broadcast_settings"
